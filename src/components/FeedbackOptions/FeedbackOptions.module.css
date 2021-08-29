@@ -1,0 +1,23 @@
+.conteiner {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  color: black;
+  background: white;
+}
